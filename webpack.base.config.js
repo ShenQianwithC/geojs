@@ -25,7 +25,7 @@ module.exports = {
    */
   performance: {hints: false},
   cache: true,
-  devtool: 'source-map',
+  devtool: 'eval-source-map',
   context: path.join(__dirname, 'src'),
   output: {
     path: path.join(__dirname, 'dist', 'built'),
